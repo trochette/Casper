@@ -30,9 +30,49 @@
         {{! Everything else gets inserted here }}
         {{{body}}}
 
+<!--<footer id="main-footer">
+      <div class="main-wrapper">
+        <div class="signature">
+          <div class="logo"><img alt="Logo" src="/assets/marketing/logo-53e98cc26c1797b2666bb51db6158c66.png"></div>
+          <p>© 2015 Minutes Dépôt inc.</p>
+        </div>
+        <nav>
+          <ul class="menu info">
+            <li><a href="/fr">Accueil</a></li>
+            <li><a href="/fr/explore">Explorer</a></li>
+            <li><a href="/fr/pricing">Tarif</a></li>
+            <li><a href="/fr/security">Sécurité</a></li>
+            <li><a href="/fr/contact">Contact</a></li>
+          </ul>
+          <ul class="menu actions">
+            <li><a href="/fr/sign_up">Inscription</a></li>
+            <li><a href="/fr/sign_in">Connexion</a></li>
+              <li class="lang"><a href="/en">English</a></li>
+
+          </ul>
+          <ul class="social">
+            <li class="phone">1 844 392-6880</li>
+            <li class="address">520 Charest Est, suite 390, <br>Québec QC, G1K&nbsp;3J3, <br>Canada</li>
+            <li class="icon twitter"><a href="https://twitter.com/minutesdepot">Twitter</a></li>
+            <li class="icon googleplus"><a href="https://plus.google.com/+Minutesdepotapp" rel="publisher">Google+</a></li>
+            <li class="icon linkedin"><a href="http://www.linkedin.com/company/minutes-d%C3%A9p%C3%B4t-inc-">LinkedIn</a></li>
+            <li class="icon facebook"><a href="http://www.facebook.com/minutesdepot">Facebook</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer> -->
+
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+            <div class="signature">
+              <div>
+                {{#if @blog.logo}}
+                <a href="http://www.minutesdepot.com/en">
+                   <img alt="{{@blog.title}}" src="{{@blog.logo}}" class="logo">
+                </a>
+                {{/if}}
+              </div>
+              <p>&copy; {{date format="YYYY"}} Minutes Depot inc.</p>
+            </div>        
         </footer>
 
     </div>
