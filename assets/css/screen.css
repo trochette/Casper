@@ -1683,7 +1683,7 @@ nav ul.social{width:24rem;}
 nav ul.social li{line-height:2rem;}
 
 nav ul.social li.phone{
-    background:url("/content/images/2015/12/icon-footer.png") no-repeat 0 -147px;
+    background:url("../images/icon-footer.png") no-repeat 0 -147px;
     color:#eaeaea;
     cursor:default;
     font-size:2rem;
@@ -1692,13 +1692,13 @@ nav ul.social li.phone{
     padding-left:3.5rem;
     vertical-align:top;
 }
-
+ 
 nav ul.social li.phone:hover{color:#FFF}
 nav ul.social li.address{margin-bottom:1.5rem;}
 nav ul.social li.icon{display:inline-block; }
 
 nav ul.social li.icon a{
-    background:url("/content/images/2015/12/icon-footer.png") no-repeat top left;
+    background:url("../images/icon-footer.png") no-repeat top left;
     height:32px;
     text-indent:-9999px;
     width:32px;
