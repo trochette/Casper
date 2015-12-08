@@ -1583,7 +1583,8 @@ body:not(.post-template) .post-title {
 
 .md-signup{
     background-color:#43b988;
-    border:1px solid #43b988;
+    border:1px solid #43b988!important;
+    color:#2f3c3d!important;
 }
 
 /* ==========================================================================
