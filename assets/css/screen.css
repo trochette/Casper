@@ -1562,6 +1562,20 @@ body:not(.post-template) .post-title {
     display: block;
 }
 
+/* ==========================================================================
+   9.1 Header styles
+   ========================================================================== */
+
+.md-nav{
+    float: left;
+    margin-left: 20px;
+    color: #b8b8b9;
+    margin-top: 2px;
+}
+
+.selected-nav{
+    border-bottom: 1px solid;
+}
 
 /* ==========================================================================
    10. Footer - The bottom of every page
