@@ -1573,8 +1573,17 @@ body:not(.post-template) .post-title {
     margin-top: 2px;
 }
 
+.md-nav:hover{
+    color:#ffffff!important;
+}
+
 .selected-nav{
     border-bottom: 1px solid;
+}
+
+.md-signup{
+    background-color:#43b988;
+    border:1px solid #43b988;
 }
 
 /* ==========================================================================
