@@ -1632,6 +1632,12 @@ body:not(.post-template) .post-title {
         display: none!important;
         opacity: 0;
     }
+
+    .blog-logo{
+        border-top: none!important;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
 }
 
 /* ==========================================================================
