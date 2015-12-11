@@ -1594,6 +1594,10 @@ body:not(.post-template) .post-title {
     color:#2f3c3d!important;
 }
 
+.nav-opened .md-signup .word{
+    opacity: 1!important;
+}
+
 .md-signup:hover{
     background:#35f5a5!important;
     border:1px solid #35f5a5!important;
@@ -1620,6 +1624,12 @@ body:not(.post-template) .post-title {
 
     .md-nav{
         display:none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .md-signup{
+        display: none;
     }
 }
 
