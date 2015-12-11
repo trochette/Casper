@@ -1628,6 +1628,9 @@ body:not(.post-template) .post-title {
 }
 
 @media only screen and (max-width: 500px) {
+    .blue-border{
+        display: none!important;
+    }
     .md-signup{
         display: none!important;
         opacity: 0;
