@@ -1588,12 +1588,28 @@ body:not(.post-template) .post-title {
     margin-right:10px;
 }
 
+.md-signup:hover{
+    background:#35f5a5!important;
+    border:1px solid #35f5a5!important;
+}
+
+.blog-logo{
+    border-top: 12px solid #3dc088;
+    padding-top: 28px;
+    margin-top: -40px;
+}
+
+.blue-border{
+    height:12px;
+    background: #425b6b;
+}
+
 /* ==========================================================================
    10. Footer - The bottom of every page
    ========================================================================== */
 
 .site-footer {
-    background:#2a2a2a;
+    background:#24282c;
     position: relative;
     margin: 8rem 0 0 0;
     padding: 8rem 0;
