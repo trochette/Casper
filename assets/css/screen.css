@@ -1588,6 +1588,12 @@ body:not(.post-template) .post-title {
     margin-right:10px;
 }
 
+.nav-opened .md-signup{
+    background-color:#43b988;
+    border:1px solid #43b988!important;
+    color:#2f3c3d!important;
+}
+
 .md-signup:hover{
     background:#35f5a5!important;
     border:1px solid #35f5a5!important;
@@ -1605,6 +1611,16 @@ body:not(.post-template) .post-title {
     width: 100%;
     display: block;
     position: absolute;
+}
+
+@media only screen and (max-width: 900px) {
+    .blue-border{
+        margin-top: -15%;
+    }
+
+    .md-nav{
+        display:none;
+    }
 }
 
 /* ==========================================================================
