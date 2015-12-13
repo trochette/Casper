@@ -1708,7 +1708,6 @@ body:not(.post-template) .post-title {
    10.1. Footer style
    ========================================================================== */
 nav{
-    float:right;
     margin-right:5%;
 }
 
@@ -1909,6 +1908,8 @@ nav ul.social li.icon.facebook a{background-position:0 -200px;}
         border-left: none;
     }
 
+    nav ul.social{display:none;}
+
 }
 
 
@@ -1917,7 +1918,8 @@ nav ul.social li.icon.facebook a{background-position:0 -200px;}
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-
+    nav ul.social{display:none;}
+    nav ul.actions{display:none;}
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
