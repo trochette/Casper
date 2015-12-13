@@ -1645,6 +1645,7 @@ body:not(.post-template) .post-title {
 
 .page-date a{
     color:rgba(255,255,255,0.8)!important;
+    text-decoration: none;
 }
 .page-date a:hover{
     color:#FFF!important;
