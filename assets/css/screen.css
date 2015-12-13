@@ -1742,9 +1742,9 @@ nav ul li.lang{
 nav ul li.phone{padding:.5rem 0;}
 nav ul li.address{padding:.5rem 0;}
 
-nav ul.info{width:18rem;}
-nav ul.actions{width:26rem;}
-nav ul.social{width:24rem;}
+nav ul.info{width:18%;max-width: 175px;float:right;}
+nav ul.actions{width:20%;max-width: 200px;float:right;}
+nav ul.social{float:right;}
 
 nav ul.social li{line-height:2rem;}
 
