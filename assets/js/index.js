@@ -45,7 +45,7 @@
             });
             if(subtitle){
                 $('.page-description').html(subtitle);
-                $('.post-content p:contains("+'subtitle'+")').remove();
+                $('.post-content p:contains("'+subtitle+'")').remove();
             }
         }
     });
