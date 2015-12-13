@@ -874,7 +874,7 @@ body.nav-opened .nav {
     color: #fff;
 }
 
-.page-description {
+.page-description, .page-date {
     margin: 0;
     font-size: 2rem;
     line-height: 1.5em;
@@ -1803,7 +1803,7 @@ nav ul.social li.icon.facebook a{background-position:0 -200px;}
         letter-spacing: -1px;
     }
 
-    .page-description {
+    .page-description, .page-date {
         font-size: 1.8rem;
         line-height: 1.5em;
     }
@@ -2031,7 +2031,7 @@ nav ul.social li.icon.facebook a{background-position:0 -200px;}
         font-size: 0.85em;
     }
 
-    .page-description {
+    .page-description,.page-date {
         font-size: 1.6rem;
     }
 
