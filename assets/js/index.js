@@ -31,6 +31,7 @@
             })();
         }
 
+        var subtitle;
         var blogContent = $('.post-content').html();
         blogContent = blogContent.replace(
         new RegExp( "^.*subtitle\\s*:.*$", "igm" ),
