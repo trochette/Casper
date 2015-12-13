@@ -32,7 +32,7 @@
         }
 
         var blogContent = $('.post-content').html();
-        var subtitle = blogContent.replace(
+        blogContent = blogContent.replace(
         new RegExp( "^.*subtitle\\s*:.*$", "igm" ),
         function($0) {
             var i = $0.indexOf(':');
