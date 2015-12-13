@@ -31,6 +31,18 @@
             })();
         }
 
+        var blogContent = $('.post-content').html();
+        var subtitle = blogContent.replace(
+        new RegExp( "^.*subtitle\\s*:.*$", "igm" ),
+        function($0) {
+            var i = $0.indexOf(':');
+            subtitle = $0.substr(i+1, $0.length);
+            subtitle = subtitle.replace(/(<([^>]+)>)/ig,"").trim();
+            return '';
+        });
+
+        console.log(subtitle);
+
     });
 
     // Arctic Scroll by Paul Adam Davis
