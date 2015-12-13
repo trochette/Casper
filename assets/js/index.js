@@ -33,17 +33,20 @@
 
         var subtitle;
         var blogContent = $('.post-content').html();
-        blogContent = blogContent.replace(
-        new RegExp( "^.*subtitle\\s*:.*$", "igm" ),
-        function($0) {
-            var i = $0.indexOf(':');
-            subtitle = $0.substr(i+1, $0.length);
-            subtitle = subtitle.replace(/(<([^>]+)>)/ig,"").trim();
-            return '';
-        });
 
-        console.log(subtitle);
-
+        if(blogContent){
+            blogContent = blogContent.replace(
+            new RegExp( "^.*subtitle\\s*:.*$", "igm" ),
+            function($0) {
+                var i = $0.indexOf(':');
+                subtitle = $0.substr(i+1, $0.length);
+                subtitle = subtitle.replace(/(<([^>]+)>)/ig,"").trim();
+                return '';
+            });
+            if(subtitle){
+                $('.page-description').html(subtitle);
+            }
+        }
     });
 
     // Arctic Scroll by Paul Adam Davis
